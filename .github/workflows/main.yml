@@ -29,7 +29,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: us-east-1 # Update with your region
-          SOURCE_DIR: "src" # Replace if needed
+          SOURCE_DIR: "srdeploy " # Replace if needed
 
       # Step 4: Invalidate CloudFront Cache (Optional)
       - name: Invalidate CloudFront Cache
